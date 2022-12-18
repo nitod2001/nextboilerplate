@@ -1,0 +1,55 @@
+.navbar_section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 16.2rem;
+  background: #1a0b2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_logo {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.navbar_list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navbar_item {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+}
+
+.navbar_item_active {
+  position: relative;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+}
+
+.navbar_item_active::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #fff;
+}
+
+/* Footer */
+.footer_section {
+  padding: 2rem 16.2rem;
+  background: #1a0b2e;
+  display: flex;
+  gap: 1.2rem;
+}
