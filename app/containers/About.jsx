@@ -10,9 +10,16 @@ export default function About() {
     { icon: "faSkype", content: "ReactJS" },
   ];
   return (
-    <>
+    <div className="about">
       <Project></Project>
       <Block arr={abouts} title="About"></Block>
-    </>
+      <style jsx>
+        {`
+          .about {
+            min-height: 100vh;
+          }
+        `}
+      </style>
+    </div>
   );
 }

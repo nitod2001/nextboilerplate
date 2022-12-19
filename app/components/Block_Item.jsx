@@ -6,12 +6,15 @@ import {
   faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 export default function Block_Item(props) {
+  const icon = (
+    <FontAwesomeIcon
+      icon={props.icon}
+      className="contact_item_icon"
+    ></FontAwesomeIcon>
+  );
   return (
     <div className="block_item">
-      <FontAwesomeIcon
-        icon={props.icon}
-        className="contact_item_icon"
-      ></FontAwesomeIcon>
+      {icon}
       {props.content}
     </div>
   );
