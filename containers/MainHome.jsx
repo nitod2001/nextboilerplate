@@ -1,6 +1,6 @@
 import React from "react";
-import Me from "../sections/Me";
-import Project from "../sections/Project";
+import Me from "../components/sections/Me";
+import Project from "../components/sections/Project";
 export default function MainHome() {
   return (
     <>

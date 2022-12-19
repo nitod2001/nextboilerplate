@@ -1,6 +1,6 @@
 import React from "react";
-import Me from "../sections/Me";
-import Block from "../sections/Block";
+import Me from "../components/sections/Me";
+import Block from "../components/sections/Block";
 import {
   faSkype,
   faInstagram,

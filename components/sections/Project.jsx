@@ -1,7 +1,7 @@
 import React from "react";
-import Heading from "../components/Heading";
-import styles from "../styles/Home.module.css";
-import Project_Item from "../components/Project_Item";
+import Heading from "../Heading";
+import styles from "../../styles/Home.module.css";
+import Project_Item from "../Project_Item";
 
 export default function Project() {
   return (

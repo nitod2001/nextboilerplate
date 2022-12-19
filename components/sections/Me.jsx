@@ -1,5 +1,5 @@
-import styles from "../styles/Home.module.css";
-import Heading from "../components/Heading";
+import styles from "../../styles/Home.module.css";
+import Heading from "../Heading";
 const Me = (props) => {
   return (
     <div className={styles.me_section}>

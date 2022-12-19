@@ -5,8 +5,8 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
-import Block from "../sections/Block";
-import Project from "../sections/Project";
+import Block from "../components/sections/Block";
+import Project from "../components/sections/Project";
 
 export default function About() {
   const abouts = [

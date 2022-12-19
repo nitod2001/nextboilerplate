@@ -1,14 +1,9 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSkype,
-  faInstagram,
-  faGoogle,
-} from "@fortawesome/free-brands-svg-icons";
-import Heading from "../components/Heading";
-import Block_Item from "../components/Block_Item";
+import Heading from "../Heading";
+import Block_Item from "../Block_Item";
 
 export default function Block(props) {
+  console.log(props.arr);
   return (
     <div className="block_section">
       <Heading title={props.title}></Heading>
