@@ -1,7 +1,7 @@
 import React from "react";
 import { faWalkieTalkie } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 
 export default function Project_Item(props) {
   return (

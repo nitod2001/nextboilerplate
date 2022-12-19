@@ -1,3 +1,4 @@
+@import "../styles/variables.scss";
 .me_section {
   padding: 16.2rem 16.2rem 0 16.2rem;
 }
@@ -18,12 +19,12 @@
 
 .me_image_name {
   font-size: 2rem;
-  color: #fff;
+  color: $text_color;
   margin-bottom: 1.2rem;
 }
 
 .me_image_name span {
-  color: #7127ba;
+  color: $span_color;
 }
 
 .me_image_title {
@@ -31,7 +32,7 @@
 }
 
 .me_image_title span {
-  color: #7127ba;
+  color: $span_color;
 }
 
 .me_content_desc {
@@ -63,11 +64,11 @@
   gap: 2.4rem;
   background-color: #1a0b2e;
   border-radius: 8px;
-  box-shadow: 3px 3px 2px #fff;
+  box-shadow: 3px 3px 2px $text_color;
 }
 
 .project_icon {
-  color: #fff;
+  color: $text_color;
   font-size: 5.6rem;
 }
 

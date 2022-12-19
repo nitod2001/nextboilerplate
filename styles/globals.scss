@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;600;700&display=swap");
+@import "../styles/variables.scss";
 * {
   padding: 0;
   margin: 0;
@@ -11,13 +12,13 @@
 html {
   font-size: 62.5%;
   font-family: "Chivo Mono";
-  background-color: #0b0513;
-  color: #fff;
+  background-color: $bg_color;
+  color: $text_color;
 }
 
 .heading {
   font-weight: 700;
-  color: #fff;
+  color: $text_color;
   font-size: 5rem;
   line-height: 9rem;
 }
