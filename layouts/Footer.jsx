@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "../scss/Footer.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
-    <div className={styles.footer_section}>
+    <div className="footer_section">
       <img src="/insta.png" alt="" />
       <img src="/Vector.png" alt="" />
       <img src="/gg.png" alt="" />
