@@ -1,14 +1,14 @@
-@import "../styles/variables.scss";
+@import "../scss/variables.scss";
 // Me Section
 .me_section {
   padding: 16.2rem 16.2rem 0 16.2rem;
 
-  .me_image_block {
+  .me_section_image_block {
     display: flex;
     align-items: center;
   }
 
-  .me_image {
+  .me_section_image_block_image {
     padding: 3rem 5rem;
     background: radial-gradient(
       50% 50% at 50% 50%,
@@ -17,7 +17,7 @@
     );
   }
 
-  .me_image_name {
+  .me_section_image_block_name {
     font-size: 2rem;
     color: $text_color;
     margin-bottom: 1.2rem;
@@ -26,19 +26,19 @@
     }
   }
 
-  .me_image_title {
+  .me_section_image_block_title {
     font-size: 3.6rem;
     span {
       color: $span_color;
     }
   }
 
-  .me_content_desc {
+  .me_section_content_desc {
     font-size: 2rem;
     margin-bottom: 3.6rem;
   }
 
-  .me_conten_intro {
+  .me_section_content_intro {
     padding-right: 20%;
     font-size: 2rem;
   }
@@ -48,14 +48,14 @@
 .project_section {
   padding: 16.2rem 16.2rem 6rem 16.2rem;
 
-  .project_block {
+  .project_section_block {
     margin-top: 1.2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.4rem;
   }
 
-  .project_item {
+  .project_section_item {
     padding: 4rem 6rem;
     display: flex;
     align-items: center;
@@ -65,16 +65,16 @@
     box-shadow: 3px 3px 2px $text_color;
   }
 
-  .project_icon {
+  .project_section_item_icon {
     color: $text_color;
     font-size: 5.6rem;
   }
 
-  .project_item_title {
+  .project_section_item_title {
     font-size: 2.4rem;
   }
 
-  .project_item_desc {
+  .project_section_item_desc {
     padding-right: 20%;
     font-size: 1.6rem;
     display: -webkit-box;

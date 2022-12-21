@@ -1,4 +1,4 @@
-@import "../styles/variables.scss";
+@import "../scss/variables.scss";
 
 .navbar_section {
   position: fixed;
@@ -8,33 +8,33 @@
   padding: 2rem 16.2rem;
   background: $primary_color;
 
-  .nav {
+  .navbar_section_flex {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  .navbar_logo {
+  .navbar_section_logo {
     font-size: 4rem;
     color: $text_color;
   }
 
-  .navbar_list {
+  .navbar_section_list {
     color: #fff;
     display: flex;
     align-items: center;
     gap: 4rem;
   }
 
-  .navbar_item {
+  .navbar_section_item {
     color: $text_color;
     font-size: 2rem;
     line-height: 2.5rem;
     text-transform: capitalize;
   }
 
-  .navbar_item_active {
+  .navbar_section_item_active {
     position: relative;
     color: $text_color;
     font-size: 2rem;
@@ -42,7 +42,7 @@
     text-transform: capitalize;
   }
 
-  .navbar_item_active::before {
+  .navbar_section_item_active::before {
     position: absolute;
     content: "";
     bottom: 0;
@@ -52,17 +52,9 @@
     background-color: $text_color;
   }
 }
-/* Footer */
-.footer_section {
-  padding: 2rem 16.2rem;
-  background: $primary_color;
-  display: flex;
-  gap: 1.2rem;
-}
 
 @media only screen and (max-width: 768px) {
-  .navbar_section,
-  .footer_section {
+  .navbar_section {
     padding: 2rem 10.2rem;
   }
 }

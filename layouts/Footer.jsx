@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Navbar&Footer.module.scss";
+import styles from "../scss/Footer.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
