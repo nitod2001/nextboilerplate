@@ -84,3 +84,12 @@
     -webkit-line-clamp: 2;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .me_section {
+    padding: 10.2rem 10.2rem 0 10.2rem;
+  }
+  .project_section {
+    padding: 10.2rem 10.2rem 3rem 10.2rem;
+  }
+}

@@ -59,3 +59,10 @@
   display: flex;
   gap: 1.2rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .navbar_section,
+  .footer_section {
+    padding: 2rem 10.2rem;
+  }
+}

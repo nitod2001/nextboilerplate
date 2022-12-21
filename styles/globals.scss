@@ -35,3 +35,12 @@ html {
   align-items: center;
   gap: 1.6rem;
 }
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .block_section {
+    padding: 3rem 10.2rem;
+  }
+}
