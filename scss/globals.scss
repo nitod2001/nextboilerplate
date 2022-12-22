@@ -57,9 +57,27 @@ body {
 
 @media only screen and (max-width: 768px) {
   html {
-    font-size: 50%;
+    font-size: 50% !important;
   }
   .block_section {
     padding: 3rem 10.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 50% !important;
+  }
+  .block_section {
+    padding: 3rem 10.2rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  html {
+    font-size: 35% !important;
+  }
+  .block_section {
+    padding: 1rem 5.2rem;
   }
 }
