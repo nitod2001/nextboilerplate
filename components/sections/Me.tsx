@@ -1,5 +1,5 @@
 import Heading from "../Heading";
-const Me = (props) => {
+const Me = (props: any) => {
   return (
     <div className="me_section">
       <div className="me_section_image_block">

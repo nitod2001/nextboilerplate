@@ -1,8 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Block_Item(props) {
-  console.log(props);
+export default function Block_Item(props: any) {
   return (
     <div className="block_section_item">
       <FontAwesomeIcon
