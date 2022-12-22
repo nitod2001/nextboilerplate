@@ -15,7 +15,7 @@ export default function MyNavbar() {
         <Navbar_Item href="/about" title="about"></Navbar_Item>
         <Navbar_Item href="/contact" title="contact"></Navbar_Item>
       </div> */}
-      <Navbar bg="dark" variant="dark" className="navbar_section_flex">
+      <Navbar variant="dark" className="navbar_section_flex">
         <Navbar.Brand className="navbar_section_logo" href="/">
           Nitod
         </Navbar.Brand>

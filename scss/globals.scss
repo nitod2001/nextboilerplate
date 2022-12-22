@@ -3,7 +3,8 @@
 @import "../scss/Home.module.scss";
 @import "../scss/Navbar.module.scss";
 @import "../scss/Footer.module.scss";
-// @import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
+
 * {
   padding: 0;
   margin: 0;
@@ -16,6 +17,9 @@
 html {
   font-size: 62.5%;
   font-family: "Chivo Mono";
+}
+
+body {
   background-color: $bg_color;
   color: $text_color;
 }

@@ -5,25 +5,25 @@ import {
   faSkype,
   faInstagram,
   faGoogle,
+  faFacebook,
+  faGithub,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { Container } from "react-bootstrap";
 
 export default function Contact() {
   const contacts = [
-    { icon: faSkype, content: "skype.com" },
-    { icon: faInstagram, content: "instagram.com" },
-    { icon: faGoogle, content: "gmail.com" },
+    { icon: faSkype, content: "Skype" },
+    { icon: faInstagram, content: "Instagram" },
+    { icon: faGoogle, content: "Gmail" },
+    { icon: faFacebook, content: "Facebook" },
+    { icon: faGithub, content: "Github" },
+    { icon: faTwitter, content: "Twitter" },
   ];
   return (
-    <div className="contact">
+    <Container>
       <Me content="Hopely, after my training course i can improve my logic about code and have a chance stay at company."></Me>
       <Block arr={contacts} title="Contact me"></Block>
-      <style jsx>
-        {`
-          .contact {
-            min-height: 100vh;
-          }
-        `}
-      </style>
-    </div>
+    </Container>
   );
 }

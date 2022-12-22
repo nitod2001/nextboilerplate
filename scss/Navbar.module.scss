@@ -5,8 +5,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem 16.2rem;
-  background: $primary_color;
+  padding: 2rem 16.2rem !important ;
+  background: $primary_color !important;
 
   .navbar_section_flex {
     width: 100%;
@@ -29,12 +29,14 @@
 
   .navbar_section_item {
     color: $text_color;
+    text-decoration: none !important;
     font-size: 2rem;
     line-height: 2.5rem;
     text-transform: capitalize;
   }
 
   .navbar_section_item_active {
+    text-decoration: none !important;
     position: relative;
     color: $text_color;
     font-size: 2rem;

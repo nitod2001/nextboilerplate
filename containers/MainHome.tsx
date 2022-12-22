@@ -4,7 +4,7 @@ import Me from "../components/sections/Me";
 import Project from "../components/sections/Project";
 export default function MainHome() {
   return (
-    <Container fluid>
+    <Container>
       <Me
         content=" A Web Developer is a professional who is responsible for the design and
         construction of websites. They ensure that sites meet user expectations

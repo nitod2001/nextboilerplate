@@ -3,7 +3,6 @@ import Heading from "../Heading";
 import Block_Item from "../Block_Item";
 
 export default function Block(props: any) {
-  console.log(props.arr);
   return (
     <div className="block_section">
       <Heading title={props.title}></Heading>

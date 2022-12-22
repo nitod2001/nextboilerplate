@@ -7,6 +7,7 @@ import {
 import React from "react";
 import Block from "../components/sections/Block";
 import Project from "../components/sections/Project";
+import { Container } from "react-bootstrap";
 
 export default function About() {
   const abouts = [
@@ -16,16 +17,9 @@ export default function About() {
     { icon: faReact, content: "ReactJS" },
   ];
   return (
-    <div className="about">
+    <Container>
       <Project></Project>
       <Block arr={abouts} title="About"></Block>
-      <style jsx>
-        {`
-          .about {
-            min-height: 100vh;
-          }
-        `}
-      </style>
-    </div>
+    </Container>
   );
 }
